@@ -7,7 +7,7 @@
     "deploy": "gh-pages -d build"
   },
   "author": "Sergiy Krasnukha <skasnukha@gmail.com>",
-  "license": "MIT",
+  "homepage": "https://ksergv.github.io/genablog",
   "dependencies": {
     "commonmark": "^0.30.0"
   },
