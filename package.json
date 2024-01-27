@@ -1,0 +1,17 @@
+{
+  "name": "gena-blog",
+  "version": "0.1.0",
+  "description": "An blog website",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Sergiy Krasnukha <skasnukha@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commonmark": "^0.30.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

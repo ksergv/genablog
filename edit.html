@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>      
+    <style>
+        .logo  {
+          font-family: 'Tangerine', serif;
+          font-size: 48px;
+          text-shadow: 4px 4px 4px #aaa;
+        }
+        .login  {
+          font-family: 'Tangerine', serif;
+          font-size: 28px;
+          text-shadow: 4px 4px 4px #aaa;
+          border-radius:50%;
+        }
+        .subtitle {
+          font-family: 'Tangerine', serif;
+          font-size: 28px;
+          color:white;
+        }
+        .filter-item {
+          font-family: 'Tangerine', serif;
+          font-size: 28px;
+          color: gray;
+          border-radius:50%;
+          padding:20px;
+        }
+        #editText{
+            width:100%;
+            height:90vh;
+            font-size: 18px;
+            padding: 0 10px;
+        }
+      </style>
+       <script src="js/edit.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+        <!-- Logo -->
+        <a class="logo" href="">Gena<span>blog</span></a>
+
+        <p style="width:150px;margin-left:-60px;"><img  src="./img/favicon.png" alt="logo" /></p>
+
+       <!-- Back To Home -->
+       <a href="./index.html" class="back-home">Back To Home</a>
+    </div>
+
+    </header>
+    <!-- Home -->
+     <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">The Ksv Blog</h2>
+            <div class="profile">
+                <img src="img/profile.jpg" alt="" class="profile-img">
+                
+                <p class="subtitle" href="">Панель редактиврования <span> md файлов</span></p>
+                 <!--Dark Mode-->
+                <input type="checkbox" id="dark-mode" class="input" />
+                <label for="dark-mode" class="label">
+                    <div class="circle"></div>
+                </label>
+            </div>
+        </div>
+    </section>
+    <section id="postSection"class=" container">
+        <h2 id="editName"></h2>
+        <p>После изменений Файл будет загружен в папку "download" и Вам нужно самостоятельно перенести его в папку "posts"</p>
+        <p> Перед созданием нового файла не забудьте внести соответствующие изменения в data.json и contain.json  </p>
+    <form id="editForm">
+      
+        <label for="editText"></label></br>
+        <textarea id="editText" name="editText" required></textarea></br>
+
+        <button style="background-color: green;color:white" type="button" onclick="saveMdFile()">Добавить</button>
+        
+     </Form>
+   
+       
+    </section>
+    <!-- Footer -->
+    <div class="footer container">
+      <p>&#169; Gena Blog All Right Reserved(шаблон Carpoolvenom)</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+    </div>
+
+    <!-- JQuery Link -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <!-- Link To JS -->
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
