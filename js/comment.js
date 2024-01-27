@@ -196,3 +196,47 @@ function editeMdfile() {
  }
     window.location.href = `../edit.html?index=${index}`;
 }
+function showComments(index) {
+    // Отображаем комментарии
+    var commentsContainer = document.getElementById('commentsContainer');
+    commentsContainer.innerHTML = '';
+
+ // Получаем данные из localStorage
+ var storedData = JSON.parse(localStorage.getItem('commentsData')) || {};
+
+ // Проверяем, есть ли запись для текущего индекса
+ if (storedData[index]) {
+     var comments = storedData[index].comments;
+
+  
+     if (comments.length > 0) {
+         var commentsList = document.createElement('ul');
+         comments.forEach(comment => {
+             var commentItem = document.createElement('li');
+             commentItem.innerText = `${comment.author}: ${comment.text}`;
+
+             // Добавляем обработчик события для выбора комментария
+             commentItem.addEventListener('click', function() {
+                 selectComment(comment.id);
+             });
+
+             commentsList.appendChild(commentItem);
+             // Добавим следующую строку в showComments(index) для добавления обработчика наведения на комментарий
+             commentItem.addEventListener('mouseover', function() {
+                 commentItem.style.backgroundColor = '#f0f0f0'; // Задайте цвет, который вам нравится
+             });
+
+             // Добавим следующую строку в showComments(index) для добавления обработчика ухода мыши с комментария
+             commentItem.addEventListener('mouseout', function() {
+                 commentItem.style.backgroundColor = ''; // Возвращаем обычный фон
+             });
+         });
+
+         commentsContainer.appendChild(commentsList);
+     } else {
+         commentsContainer.innerText = 'No comments yet.';
+     }
+ } else {
+     commentsContainer.innerText = 'No comments yet.';
+ }
+}
