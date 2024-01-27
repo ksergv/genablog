@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Page</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- Box Icons -->
+    <style>
+        .logo  {
+          font-family: 'Tangerine', serif;
+          font-size: 48px;
+          text-shadow: 4px 4px 4px #aaa;
+        }
+        .back-home  {
+          font-family: 'Tangerine', serif;
+          font-size: 28px;
+          text-shadow: 4px 4px 4px #aaa;
+          border-radius:50%;
+          padding: 10px;
+        }
+      </style>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+        <!-- Logo -->
+        <a href="index.html" class="logo">Gena<span>blog</span></a>
+        <p style="width:150px;margin-left:-60px;"><img  src="../img/favicon.png" alt="logo" /></p>
+            <!-- Back To Home -->
+            <a href="../index.html" class="back-home">Back To Home</a>
+    </div>
+          
+    </header>
+    <!-- Post Content -->
+    <section class="post-header">
+        <div class="header-content post-container">
+       </br></br>
+            <!-- Title -->
+            <h1 id="titulContainer" class="subtitle" style="color:white"></h1>
+            <!-- Post Image -->
+          <div id ="imageContainer"></div> 
+
+        </div>
+    </section>
+    
+ 
+   
+    <!-- Posts -->
+    <section  class="post-content post-container">
+        <h2 class="sub-heading" id="titul"></h2>
+          <!-- Profile -->
+          <div class="profile">
+            <img src="../img/profile-1.jpg" alt="" class="profile-img">
+            <span class="profile-name">Admin</span>
+        </div>
+        <div  class="post-box" id = "htmlContainer"></div>
+       
+  <!---->
+ 
+  <h2>Комментарии</h2>
+        <div class="post-box" id="commentsContainer"></div>
+    
+        <form id="commentForm">
+            <label for="author">Имя:</label></br>
+            <input type="text"  id="author" name="author" required></br>
+    
+            <label for="commentText">Комментарий:</label></br>
+            <textarea id="commentText" name="commentText" required></textarea></br>
+    
+            <button style="background-color: green;color:white" type="button" onclick="addComment()">Добавить</button>
+            
+
+  
+     <!-- Поле для редактирования комментария -->
+     <h2>Редактирование комментария</h2>
+     <form id="editCommentForm">
+         <textarea id="editedComment" name="editedComment" required></textarea>
+        </br>
+        
+         <button style="background-color: blue;color:white" type="button" onclick="saveEditedComment()">Изменить</button>
+         <button style="background-color: red;color:white" type="button" onclick="deleteEditedComment()">Удалить</button>
+          <button style="background-color: green;color:white" type="button" onclick="editeMdfile()">Edit md file</button>
+          
+        </form>
+    </section>
+    <!-- Share -->
+    <div class="share post-container">
+        <span class="share-title">Share this article</span>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer container">
+      <p>&#169; Gena Blog All Right Reserved(шаблон Carpoolvenom)</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+    </div>
+
+    <!-- JQuery Link -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <!-- Link To JS -->
+    <script  src="../js/main.js"></script>
+    <script src="../js/commonmark.min.js"></script>
+    <script type="module" src="../js/post.js" ></script>
+    <script src="../js/comment.js"></script> 
+</body>
+</html>

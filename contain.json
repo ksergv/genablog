@@ -1,0 +1,105 @@
+{
+    "posts": [
+      {
+        "index": 1,
+        "imagePath": "img/post-1.jpg",
+        "category": "Mobile",
+        "categoryClass": "Mobile",
+        "title": "Введение в HTML",
+        "date": "27 Jan 2024",
+        "smallText": "HTML (HyperText Markup Language) является основой веб-разработки. С его помощью создаются структура и контент веб-страницы.",
+        "profileImagePath": "img/profile-1.jpg",
+        "profileName": "Marques Brown"
+      },
+      {
+        "index": 2,
+        "imagePath": "img/post-2.jpg",
+        "category": "Tech",
+        "categoryClass": "Tech",
+        "title": "Знакомство с CSS",
+        "date": "27 Jan 2024",
+        "smallText": "CSS (Cascading Style Sheets) используется для стилизации веб-страниц. Этот язык позволяет определить внешний вид элементов.",
+        "profileImagePath": "img/profile-2.jpg",
+        "profileName": "Marques Brown"
+      },
+      {
+        "index": 3,
+        "imagePath": "img/post-3.jpg",
+        "category": "Mobile",
+        "categoryClass": "Mobile",
+        "title": "Основы JavaScript",
+        "date": "27 Jan 2024",
+        "smallText": "JavaScript является языком программирования, который делает ваши веб-страницы интерактивными.",
+        "profileImagePath": "img/profile-3.jpg",
+        "profileName": "Marques Brown"
+      },
+      {
+        "index": 4,
+        "imagePath": "img/post-4.jpg",
+        "category": "Design",
+        "categoryClass": "Design",
+        "title": "Работа с событиями в JavaScript",
+        "date": "27 Jan 2024",
+        "smallText": "События, такие как клики и наведения мыши, придают вашим веб-проектам интерактивность.",
+        "profileImagePath": "img/profile-1.jpg",
+        "profileName": "Marques Brown"
+      },
+      {
+        "index": 5,
+        "imagePath": "img/post-5.jpg",
+        "category": "Tech",
+        "categoryClass": "Tech",
+        "title": "Flexbox для управления макетом",
+        "date": "27 Jan 2024",
+        "smallText": "Flexbox предоставляет мощные средства для создания гибких макетов. Разберем продвинутые возможности Flexbox.",
+        "profileImagePath": "img/profile-2.jpg",
+        "profileName": "Marques Brown"
+      },
+      {
+        "index": 6,
+        "imagePath": "img/post-6.jpg",
+        "category": "Mobile",
+        "categoryClass": "Mobile",
+        "title": "Grid Layout для сложных макетов",
+        "date": "27 Jan 2024",
+        "smallText": "CSS Grid Layout предоставляет еще больше возможностей для управления макетами. Рассмотрим в деталях создание сложных и многоколоночных структур страниц .",
+        "profileImagePath": "img/profile-3.jpg",
+        "profileName": "Marques Brown"
+      },
+      {
+        "index": 7,
+        "imagePath": "img/post-7.jpg",
+        "category": "Design",
+        "categoryClass": "Design",
+        "title": "AJAX и взаимодействие с сервером",
+        "date": "27 Jan 2024",
+        "smallText": "Асинхронный JavaScript и XML (AJAX) позволяют обновлять части страницы без перезагрузки.",
+        "profileImagePath": "img/profile-1.jpg",
+        "profileName": "Marques Brown"
+      },
+      {
+        "index": 8,
+        "imagePath": "img/post-8.jpg",
+        "category": "Tech",
+        "categoryClass": "Tech",
+        "title": "Работа с API",
+        "date": "27 Jan 2024",
+        "smallText": "API (Application Programming Interface) предоставляют доступ к данным и функциональности веб-сервисов.",
+        "profileImagePath": "img/profile-2.jpg",
+        "profileName": "Marques Brown"
+      },
+      {
+        "index": 9,
+        "imagePath": "img/post-9.jpg",
+        "category": "Design",
+        "categoryClass": "Design",
+        "title": "Оптимизация и отладка веб-приложений",
+        "date": "27 Jan 2024",
+        "smallText": "Оптимизация и отладка играют критическую роль в веб-разработке.",
+        "profileImagePath": "img/profile-3.jpg",
+        "profileName": "Marques Brown"
+      }
+
+    ]
+  }
+  

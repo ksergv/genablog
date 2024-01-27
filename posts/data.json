@@ -1,0 +1,51 @@
+{
+	"entries": [
+		{
+			"id": 1,
+			"picture_path": "../img/post-1.jpg",
+			"title": "Введение в HTML"
+		},
+		{
+			"id": 2,
+			"picture_path": "../img/post-2.jpg",
+			"title": "Знакомство с CSS"
+		},
+		{
+			"id": 3,
+			"picture_path": "../img/post-3.jpg",
+			"title": "Основы JavaScript"
+		},
+		{
+			"id": 4,
+			"picture_path": "../img/post-4.jpg",
+			"title": "Работа с событиями в JavaScript"
+		},
+		{
+			"id": 5,
+			"picture_path": "../img/post-5.jpg",
+			"title": "Flexbox для управления макетом"
+		},
+		{
+			"id": 6,
+			"picture_path": "../img/post-6.jpg",
+			"title": "Grid Layout для сложных макетов"
+		},
+		{
+			"id": 7,
+			"picture_path": "../img/post-7.jpg",
+			"title": "AJAX и взаимодействие с сервером"
+		},
+		{
+			"id": 8,
+			"picture_path": "../img/post-8.jpg",
+			"title": "Работа с API"
+		},
+		{
+			"id": 9,
+			"picture_path": "../img/post-9.jpg",
+			"title": "Оптимизация и отладка веб-приложений"
+		}
+		
+	]
+}
+  
