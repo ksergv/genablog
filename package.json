@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "An blog website",
   "scripts": {
+    "build": "mkdir -p build && rsync -a --exclude={'node_modules','build','.git'} ./ build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
