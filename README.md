@@ -10,9 +10,9 @@
         "imagePath": "img/post-1.jpg", // картинка
         "category": "Mobile",  // категория
         "categoryClass": "Mobile", //проверка категории при выборе 
-        "title": "Введение в HTML", // титул
+        "title": "Введение в HTML", // титул отображаемый в постах 
         "date": "27 Jan 2024", //дата
-        "smallText": "HTML (HyperText Markup Language) является основой веб-разработки. С его помощью создаются структура и контент веб-страницы.", // крткий текст
+        "smallText": "HTML (HyperText Markup Language) является основой веб-разработки. С его помощью создаются структура и контент веб-страницы.", // краткий текст
         "profileImagePath": "img/profile-1.jpg", //картинка профайла
         "profileName": "Marques Brown" //имя автора
       }]
@@ -26,7 +26,7 @@
 		{
 			"id": 1,
 			"picture_path": "../img/post-1.jpg", //  картинка
-			"title": "Введение в HTML" // титул- совпадает с именам md фала то есть Введение в HTML.md
+			"title": "Введение в HTML" // титул отображается в ./posts/post.html и совпадает с именем md фала то есть - Введение в HTML.md
 		} ]
 
 
